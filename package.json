@@ -1,28 +1,31 @@
 {
-  "name": "basic-clock",
-  "version": "0.1.0",
-  "private": true,
-  "license": "UNLICENSED",
-  "devDependencies": {
-    "@fitbit/sdk": "~6.0.2",
-    "@fitbit/sdk-cli": "^1.7.3"
-  },
-  "fitbit": {
-    "appUUID": "adcc4206-66fc-4498-ba85-48574c9b3096",
-    "appType": "clockface",
-    "appDisplayName": "Basic Clock",
-    "iconFile": "resources/icon.png",
-    "wipeColor": "#ffffff",
-    "requestedPermissions": [],
-    "buildTargets": [
-      "atlas",
-      "vulcan"
-    ],
-    "i18n": {},
-    "defaultLanguage": "en-US"
-  },
-  "scripts": {
-    "build": "fitbit-build",
-    "debug": "fitbit"
-  }
+	"name": "basic-clock",
+	"version": "0.1.0",
+	"private": true,
+	"license": "UNLICENSED",
+	"devDependencies": {
+		"@fitbit/sdk": "~6.0.2",
+		"@fitbit/sdk-cli": "^1.7.3"
+	},
+	"fitbit": {
+		"appUUID": "adcc4206-66fc-4498-ba85-48574c9b3096",
+		"appType": "clockface",
+		"appDisplayName": "Basic Clock",
+		"iconFile": "resources/icon.png",
+		"wipeColor": "#ffffff",
+		"requestedPermissions": [
+			"access_activity",
+			"access_heart_rate"
+		],
+		"buildTargets": [
+			"atlas",
+			"vulcan"
+		],
+		"i18n": {},
+		"defaultLanguage": "en-US"
+	},
+	"scripts": {
+		"build": "fitbit-build",
+		"debug": "fitbit"
+	}
 }
