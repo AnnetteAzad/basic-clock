@@ -1,0 +1,27 @@
+#clock-label {
+	x: 50%;
+	y: 25%;
+	font-size: 60;
+	text-anchor: middle;
+	fill: #ffffcc;
+}
+#todays-date {
+	x: 50%;
+	y: 40%;
+	fill: #ffffcc;
+	font-size: 30;
+	text-anchor: middle;
+}
+#steps-straight-icon {
+	width: 30;
+	height: 30;
+	x: 32%;
+	y: 58%;
+}
+#todays-steps {
+	x: 50%;
+	y: 65%;
+	fill: #005bbb;
+	font-size: 30;
+	text-anchor: middle;
+}
